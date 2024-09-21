@@ -1,0 +1,80 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    background-image: url(tribute3.jpeg);
+    background-size: 1600px 1400px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-style: italic;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(238, 244, 249, 0.707);
+    margin-bottom: 20px;
+    color: #f0f0f0;
+}
+
+/* Bio Section Styling */
+#bio {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#bio .profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Achievements Section Styling */
+#achievements {
+    margin-bottom: 2rem;
+}
+
+#achievements ul {
+    list-style: square inside;
+    padding-left: 20px;
+}
+
+#achievements li {
+    margin: 10px 0;
+}
+
+/* Legacy Section Styling */
+#legacy {
+    margin-bottom: 2rem;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    color: #fff;
+}
